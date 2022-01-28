@@ -1,29 +1,19 @@
 <template>
-  <div>
-     <app-header></app-header>
-     <ninjas></ninjas>
-     <app-footer></app-footer>
+  <div id="app">
+    <!-- <b-card :img-src="require('@/assets/image-jeremy.png')" img-alt="Card image" img-top> 
+     <h3>Report for</h3>
+            <h1>Jeremy</h1>
+            <h1>Robson</h1>-->
+    <carte></carte>
   </div>
 </template>
-
 <script>
-import Header from './components/Header.vue'
-import Footer from './components/Footer.vue'
-import Ninjas from './components/Ninjas.vue'
-export default { 
-  components:{
-      "app-header":Header,
-      "app-footer":Footer,
-    Ninjas
-  },
-  data(){
-     return{
-       title:"titolo"
-     }
-  }
+import carte from './components/carte.vue'
+export default {
+  components: { carte }, 
 }
 </script>
 
-<style >
+<style >    
 
 </style>

@@ -1,14 +1,6 @@
 <template>
   <div id="app">
     <b-container>
-              <!-- <b-card           
-                :img-src="require('@/assets/icon-work.svg')"
-                title="title"
-                img-top
-                img-width="200"
-                img-height="200"
-              >
-              </b-card> -->
       <b-row>
         <b-col cols = 3>
           <b-card class="cartaNuova blue white muoviZ" :img-src="require('@/assets/image-jeremy.png')" img-alt="Card image" img-top> 
@@ -97,15 +89,6 @@ export default {
   padding-top:10px;
   border-radius: 20px !important;
 }
-/*.carteSingole .img{
-    display: flex;
-    width: 15%;
-    object-fit: scale-down;
-    align-items: right  ;
-}
-.carteSingole{
-  margin-left:auto;
-}*/
 
 .card-body{
   padding-top: 1rem !important;

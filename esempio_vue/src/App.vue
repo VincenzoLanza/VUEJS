@@ -10,7 +10,7 @@
 <script>
 import carte from './components/carte.vue'
 export default {
-  components: { carte }, 
+  components: { carte}, 
 }
 </script>
 
